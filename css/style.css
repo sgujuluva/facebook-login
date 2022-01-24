@@ -30,7 +30,6 @@ footer{
     height:90vh;
 }
 .facebook, .google, .twitter{
-    border:1px solid blue;
     text-decoration: none;
     margin: 25%;
   
@@ -49,11 +48,13 @@ footer{
  #socialmedia-login > div{
      width:40%;
      height:7%;
+    
      font-size: 1.5rem;
-     text-align: center;
+     text-align:center;
  }
  #socialmedia-login > div:nth-child(1){
     background-color:blue;
+  
 }
  #socialmedia-login > div:nth-child(2){
      background-color:red;
@@ -65,22 +66,23 @@ footer{
  #socialmedia-login > div .link{
     color:white;
     text-decoration: none;
+    
     }
-
- /* #socialmedia-login > div:nth-child(n){
-     text-align: center;
-     } */
  
  #socialmedia-login div > div{
     /*  border:1px solid red; */
      display:inline;
      margin:3px;
  }
-/*  #socialmedia-login div ~ div{
-    border:1px solid green;
-} */
 
 #socialmedia-login > div :nth-child(2n+1){
     /* background-color: darkorchid; */
     color:white;
 }  
+
+/* username-login styling */
+form > legend{
+    font-size: 2rem;
+    text-align: center;
+}
+
