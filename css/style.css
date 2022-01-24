@@ -34,12 +34,27 @@ footer{
     margin: 25%;
   
 }
-
-#divider{
-    border: 1px solid green;
-    width:15vw;
-    height:90vh;
+/* OR divider */
+.circle{
+    width:80px;
+    height:80px;
+    border:1px solid grey;
+    /* margin:30% auto; */
+    border-radius: 50%;
+    position:relative;
+    transform: translateY(40vh); 
+    font-size: 1rem;
+    text-align: center;
 }
+.content{
+    position:absolute;
+    width:inherit;
+    height:auto;
+    top:50%;
+ }
+ #divider .divider-1{
+     
+ }
  .divider-1, #divider-2 {
     border: 1px solid black;
  }
@@ -53,14 +68,14 @@ footer{
      text-align:center;
  }
  #socialmedia-login > div:nth-child(1){
-    background-color:blue;
+    background-color:#4277F5;
   
 }
  #socialmedia-login > div:nth-child(2){
      background-color:red;
  }
  #socialmedia-login > div:nth-child(3){
-    background-color:cyan;
+    background-color:#63b0ce;
 }
 /* selects anchor tag */
  #socialmedia-login > div .link{
@@ -78,24 +93,55 @@ footer{
 #socialmedia-login > div :nth-child(2n+1){
     /* background-color: darkorchid; */
     color:white;
-}  
+} 
+
+/* divider styling */
+
 
 /* username-login styling */
+#username-login input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px  solid gray;
+}
+#username-login input:focus{
+    outline:none;
+    border-bottom: 2px  solid blue;
+}
+
 form > legend{
     font-size: 2rem;
     text-align: center;
+  
 }
 
-form div > input{
-    border: 1px solid red;
-    width:10vw;
-    height:5vh;
-    margin:10px;
+#username-login input[type="email"]{
+       margin-top: 10px;
+    margin-bottom: 30px;
+       
+}
+
+#username-login input[type="password"]{
+    margin-top: 10px;
+    margin-bottom: 30px; 
+}
+/* checkbox styling */
+form > div:nth-child(4){
+    margin:30px;
+    display:inline-block;
    
 }
-form > div:nth-child(4){
-    border: 1px solid green;
-    display:inline-block;
+#username-login input[type="checkbox"]{
+border:2px solid orchid;
+margin:10px;
+}
+#username-login input[type="button"]{
+    margin-left:10px;
+    background-color: deepskyblue;
+    width:70px;
+    height:30px;
+    border:none;
+    color:white;
 }
 /* footer styling */
 footer{
@@ -110,4 +156,5 @@ footer{
 footer > a{
     text-decoration: none;
     font-size: 1.5rem;
+    color:rgb(52, 146, 235)
 }
