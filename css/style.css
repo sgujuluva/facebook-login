@@ -86,3 +86,28 @@ form > legend{
     text-align: center;
 }
 
+form div > input{
+    border: 1px solid red;
+    width:10vw;
+    height:5vh;
+    margin:10px;
+   
+}
+form > div:nth-child(4){
+    border: 1px solid green;
+    display:inline-block;
+}
+/* footer styling */
+footer{
+        display:flex;
+        justify-content: center;
+       
+   
+}
+#divider-2{
+    height:3vh;
+  }
+footer > a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
