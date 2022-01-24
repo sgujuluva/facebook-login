@@ -33,5 +33,11 @@ footer{
     border:1px solid blue;
     text-decoration: none;
     margin: 25%;
-    
+  
+}
+
+#divider{
+    border: 1px solid green;
+    width:15vw;
+    height:90vh;
 }
