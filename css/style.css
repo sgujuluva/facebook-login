@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 16px;
+}
+body{
+    width:100vw;
+    height:100vh;
+}
+
+#maincontent-login{
+    display:flex;
+    width:95vw;
+    height:90vh;
+    border:2px solid black;
+}
+
+footer{
+    width:95vw;
+    height:10vh;
+    border:2px solid red;
+}
+
+#socialmedia-login , #username-login{
+    border:1px solid red;
+    width:40vw;
+    height:90vh;
+}
+.facebook, .google, .twitter{
+    border:1px solid blue;
+    text-decoration: none;
+    margin: 25%;
+    
+}
