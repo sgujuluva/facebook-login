@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-beta3-web/css/all.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Facebook-login</title>
 </head>
@@ -12,28 +13,44 @@
     <main>
         <!-- left outer container -->
         <div id="maincontent-login">
-            <!-- button login -->
+            <!-- social media login -->
             <div id="socialmedia-login">
                 <div class="facebook">
-                    <a href="#">Facebook</a>
+                    <div>
+                        <i class="fab fa-facebook-f"></i> 
+                    </div>
+                    <div class="divider-1"></div>
+                    <div>
+                        <a class="link" href="#">Facebook Login</a>
+                    </div>
                 </div>
                 <div class="google">
-                    <a href="#">Google</a>
+                   <div>
+                    <i class="fab fa-google-plus-g"></i>
+                   </div>
+                   <div class="divider-1"></div>
+                    <div>
+                        <a class="link" href="#">Google + Login</a>
+                    </div>
+                    
                 </div>
                 <div class="twitter">
-                    <a href="#">Twitter</a>
+                    <div>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="divider-1"></div>
+                    <div><a class="link" href="#">Twitter Login</a></div>
                 </div>
             </div>
-            <div id="divider">
-               
-            </div>
+            <!-- divider -->
+            <div id="divider"></div>
             <!-- with username login -->
             <div id="username-login">
                 <form action="">
                     <legend>Sign in with</legend>
                     
-                    <input type="email" name="email" id="1">
-                    <input type="password" name="password" id="2">
+                    <input type="email" name="email" id="1" placeholder=" username or email" required>
+                    <input type="password" name="password" id="2" placeholder="password">
                     <div>Remember me
                         <input type="checkbox" id="3">
                         <input type="button" value="LOGIN">
@@ -46,7 +63,7 @@
         </div>
         <footer>
 <a href="#">Register Now</a>
-<div id="divider-1">
+<div id="divider-2">
                
 </div>
 <a href="#">Forgotten?</a>

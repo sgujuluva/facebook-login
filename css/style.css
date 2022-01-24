@@ -41,6 +41,46 @@ footer{
     width:15vw;
     height:90vh;
 }
- #divider-1{
-    border: 1px solid green;
+ .divider-1, #divider-2 {
+    border: 1px solid black;
  }
+
+ /*social media styling  */
+ #socialmedia-login > div{
+     width:40%;
+     height:7%;
+     font-size: 1.5rem;
+     text-align: center;
+ }
+ #socialmedia-login > div:nth-child(1){
+    background-color:blue;
+}
+ #socialmedia-login > div:nth-child(2){
+     background-color:red;
+ }
+ #socialmedia-login > div:nth-child(3){
+    background-color:cyan;
+}
+/* selects anchor tag */
+ #socialmedia-login > div .link{
+    color:white;
+    text-decoration: none;
+    }
+
+ /* #socialmedia-login > div:nth-child(n){
+     text-align: center;
+     } */
+ 
+ #socialmedia-login div > div{
+    /*  border:1px solid red; */
+     display:inline;
+     margin:3px;
+ }
+/*  #socialmedia-login div ~ div{
+    border:1px solid green;
+} */
+
+#socialmedia-login > div :nth-child(2n+1){
+    /* background-color: darkorchid; */
+    color:white;
+}  
