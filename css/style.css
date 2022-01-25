@@ -3,52 +3,158 @@
     padding:0;
     box-sizing: border-box;
 }
-
-section{
-width:75%;
-height:75%;
-border:1px solid black;
-}
-article{
-    border:2px dashed blue;  
-    display:flex; 
-}
-footer{
-    border:1px solid black;
-}
-#socialmedia-login, #username-login{
-    border:5px solid red;
-    width:490px;
-    height:200px;
-    /* position:relative; */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
   }
-
-#socialmedia-login .socialmedia-contents{
-    border:5px solid red;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    }
-
-#socialmedia-login div ~ div{
-    border:1px dashed black;
-    display:flex;
+  /* main container till footer */
+section{
+width:50vw;
+height:100%;
+border:3px solid black;
+}
+/* container before footer */
+article{
+  /*   border:2px dashed blue;  */ 
+    display:flex; 
     justify-content: center;
     align-items: center;
 }
 
-/* #socialmedia-login > div:nth-child(1) {
+/* social media and form container */
+#socialmedia-login, #username-login{
+    /* border:5px solid red; */
+    width:50vw;
+    height:250px;
+}
+/* facebook, google, twitter div */
+#socialmedia-login > div{
+  margin:7% auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+  }
+ /* i & a styling */
+#socialmedia-login > div > div{   
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;  
+  cursor: pointer; 
+  transition: 0.4s;   
+  padding:0.5rem;
+ }
+ /* a link styling */
+   #socialmedia-login > div > div .link{
+       text-decoration: none;
+       color:white;
+       font-size: 1.5rem;
+       border-left: 2px solid black;
+        }
+   /* facebook div styling */
+ #socialmedia-login > div:nth-child(1) {
     width:200px;
+    height:50px;
     background:blue;
     color:white;
-}
+} 
+/* google div styling */
 #socialmedia-login > div:nth-child(2) {
     width:200px;
+    height:50px;
     background:red;
     color:white;
 }
+/* twitter div styling */
 #socialmedia-login > div:nth-child(3) {
     width:200px;
-    background:lightblue;
+    height:50px;
+    background:rgb(94, 146, 214);
     color:white;
-} */
+} 
+/* divider */
+#socialmedia-login{
+    border-right: thick solid grey;
+   }
+.circle{
+    background-color:white;
+    position: absolute;
+    top:10%;
+    width:40px;
+    height:40px;
+    border:1px solid grey;
+    border-radius: 50%;
+    transform: translateY(35vh); 
+    font-size: 1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+/* form container */
+form>legend{
+    text-align:center ;
+    font-size: 1.5rem;
+}
+/* form---div */
+form > div{
+       display:flex;
+    justify-content: center;
+ }
+ 
+ form > div > i  {
+   /*  border:1px solid red;  */
+    margin:5% 2%;
+    }
+
+/* form----un & pwd box */
+form > div >i ~ input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px  solid gray;
+    margin:5%;
+}
+ 
+form > div >i ~ input:focus{
+    border:none;
+    border-bottom: 2px  solid blue;
+    outline:none;
+}
+
+/* checkbox styling */
+form > div > input[type="checkbox"], span, input[type="button"]{
+    margin:3% ;
+}
+/* login button styling */
+form input[type="button"]{
+    background: rgb(57, 114, 221);
+    width:80px;
+    height:30px;
+    border:none;
+    color:white;
+    font-weight: bold;
+}
+
+/* footer */
+footer {
+    background-color: rgb(190, 224, 240);
+    display:flex;
+   justify-content: center;
+  
+  }
+
+  footer > a{
+      text-decoration: none;
+      color:blue;
+      padding:0.5rem;
+  }
+  footer > a:nth-child(2){
+   border-left: thick solid grey;
+   height: 2vh;
+  
+  }
