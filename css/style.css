@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+section{
+width:75%;
+height:75%;
+border:1px solid black;
+}
+article{
+    border:2px dashed pink;  
+    display:flex; 
+}
+footer{
+    border:1px solid black;
+}
+#socialmedia-login, #username-login{
+    border:1px solid orchid;
+    width:490px;
+    height:200px;
+   
+}
+
+#socialmedia-login > div{
+border:1px solid black;
+background: pink;
+}
+#socialmedia-login div > div{
+    border:1px dashed black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
