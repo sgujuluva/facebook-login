@@ -11,13 +11,21 @@ body{
     height:100vh;
 }
 
+#outer-container > footer {
+    border:1px dashed red;
+    margin-top:2%;
+    margin-right: 7%;
+}
+
 #maincontent-login{
     display:flex;
     justify-content: space-around;
     position:relative;
     border:2px solid black;
     width:75%;
-    margin:20% auto;
+ /*    margin:10% auto; */
+ margin-left:10%;
+ margin-top:10%;
 }
 
 #socialmedia-login , #username-login{
@@ -161,8 +169,7 @@ margin:5px;
 footer{
         display:flex;
         justify-content: center;
-   margin-top:10px;
-}
+   }
 
 footer > a{
     text-decoration: none;
