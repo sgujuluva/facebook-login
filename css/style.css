@@ -12,7 +12,7 @@ body{
 }
 
 #outer-container > footer {
-    border:1px dashed red;
+   /*  border:1px dashed red; */
     margin-top:2%;
     margin-right: 7%;
 }
