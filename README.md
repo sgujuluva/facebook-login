@@ -18,3 +18,9 @@
 > - flex
 > - nth child selector
 > - position - absolute & relative
+> - margin
+> - padding
+> - border left
+> - form - to create Username, password, checkbox and LOGIN button
+> - a link - for Facebook , Google & Twitter login
+> - favicons
