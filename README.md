@@ -2,7 +2,7 @@
 >
 >This is a Login Page to Sign in.
 >
->	![Login Page](loginpage-md.png)
+>	![Login Page](login-page-md.png)
 > ## How it works:
 > There are 2 possibilities to Login.
 >
@@ -17,4 +17,4 @@
 > - Group selector
 > - flex
 > - nth child selector
-> - position- absolute & relative
+> - position - absolute & relative
