@@ -24,3 +24,10 @@
 > - form - to create Username, password, checkbox and LOGIN button
 > - a link - for Facebook , Google & Twitter login
 > - favicons
+>
+> # Created another branch called Flexbox 
+>
+> Using Flexbox styled the page again. 
+>
+>Found it was much easier to style than the previous one in main branch.
+
