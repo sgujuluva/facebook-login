@@ -1,0 +1,25 @@
+form{
+    display:grid;
+    grid-template-rows: 2vh 3vh 3vh 5vh;
+    grid-template-areas: 
+    "legend"
+    "username"
+    " password"
+    "login-details";
+}
+legend{
+    grid-area: legend;
+    background-color: bisque;
+}
+.username{
+    grid-area: username;
+    background-color: brown;
+}
+.password{
+    grid-area: password;
+    background-color:lightcoral;
+}
+.login-details{
+    grid-area: login-details;
+    background-color: brown;
+}
