@@ -1,6 +1,7 @@
 @import url("./form.css");
 @import url("./socialmedia.css");
 @import url("./footer.css");
+@import url("./divider.css");
 *{
     margin:0px;
     padding:0px;
@@ -15,7 +16,7 @@ body{
     width:70vw;
     height:50vh;
     display:grid;
-    grid-template-columns: 30vw 5vw 25vw;
+    grid-template-columns: 33vw 5vw 25vw;
     grid-template-rows: 45vh 5vh;
     grid-template-areas: 
     "socialmedia divider form"
