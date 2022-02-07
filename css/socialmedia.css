@@ -1,9 +1,12 @@
 .socialmedia{
     grid-area: socialmedia;
     height:100%;
+   
   
 }
+
 .socialmedia article button{
+    margin:15px;
     width:50vh;
     height:10vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

@@ -10,11 +10,13 @@
     font-size: 16px;
 }
 body{
-    width:100vw;
-    height:100vh;
+    
+    border:2px solid grey;
+    width:70vw;
+    height:50vh;
     display:grid;
-    grid-template-columns: 25vw 5vw 25vw;
-    grid-template-rows: 20vh 5vh;
+    grid-template-columns: 30vw 5vw 25vw;
+    grid-template-rows: 45vh 5vh;
     grid-template-areas: 
     "socialmedia divider form"
     "footer footer footer";
