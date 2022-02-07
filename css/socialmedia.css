@@ -1,0 +1,28 @@
+.socialmedia{
+    grid-area: socialmedia;
+    height:100%;
+  
+}
+.socialmedia article button{
+    width:50vh;
+    height:10vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.socialmedia i{
+    font-size: 2rem;
+}
+.facebook button{
+    background-color: rgba(16, 18, 143, 0.836);
+    color:white;
+    border:none;
+}
+.google button{
+    background-color: rgba(226, 40, 80, 0.479);
+    color:white;
+    border:none;
+}
+.twitter button{
+    background-color: rgba(134, 190, 235, 0.37);
+    color:white;
+    border:none;
+}

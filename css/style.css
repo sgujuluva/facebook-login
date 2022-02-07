@@ -1,0 +1,21 @@
+@import url("./form.css");
+@import url("./socialmedia.css");
+@import url("./footer.css");
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 16px;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:grid;
+    grid-template-columns: 25vw 5vw 25vw;
+    grid-template-rows: 20vh 5vh;
+    grid-template-areas: 
+    "socialmedia divider form"
+    "footer footer footer";
+}
