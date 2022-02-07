@@ -1,25 +1,38 @@
+
 form{
     display:grid;
-    grid-template-rows: 2vh 3vh 3vh 5vh;
+    width:33vw;
+    grid-template-rows: 10vh 10vh 10vh 10vh;
     grid-template-areas: 
     "legend"
     "username"
     " password"
     "login-details";
+    text-align: center;
+    font-size: large;
+}
+form >div>input{
+    width:50%;
+    height:40%;
+}
+.login-details .login{
+    width:30%;
+    background-color: lightskyblue;
+}
+.login-details .check{
+    width:15px;
+    height:15px;
 }
 legend{
     grid-area: legend;
-    background-color: bisque;
-}
+ }
 .username{
     grid-area: username;
-    background-color: brown;
 }
 .password{
     grid-area: password;
-    background-color:lightcoral;
-}
+   }
 .login-details{
     grid-area: login-details;
-    background-color: brown;
+   
 }

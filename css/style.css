@@ -16,7 +16,7 @@ body{
     width:70vw;
     height:50vh;
     display:grid;
-    grid-template-columns: 33vw 5vw 25vw;
+    grid-template-columns: 33vw 5vw 1fr;
     grid-template-rows: 45vh 5vh;
     grid-template-areas: 
     "socialmedia divider form"
