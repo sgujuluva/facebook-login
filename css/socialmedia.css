@@ -1,13 +1,27 @@
 .socialmedia{
     grid-area: socialmedia;
+    display:grid;
+    grid-template-rows: 12vh 12vh 12vh;
+    grid-template-areas: 
+    "facebook"
+    "google"
+    "twitter";
+    text-align: center;
     height:100%;
    border-right: 2px solid grey;
 }
-
+.facebook {
+    grid-area: facebook;
+}
+.google {
+    grid-area: google;
+}
+.twitter {
+    grid-area: twitter;
+}
 .socialmedia article button{
-    margin:15px;
-    width:50vh;
-    height:10vh;
+    width:40vh;
+    height:7vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .socialmedia i{
