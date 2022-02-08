@@ -16,11 +16,13 @@ body{
 
 .main{
     border:2px solid grey;
-    width:80vw;
-    height:50vh;
+    /* width:80vw;
+    height:50vh; */
+    width:100vw;
+    height:100vh;
     display:grid;
     grid-template-columns: 37vw 5vw 37vw;
-    grid-template-rows: 45vh 5vh;
+    grid-template-rows: 80vh 20vh;
     grid-template-areas: 
     "socialmedia divider form"
     "footer footer footer";
