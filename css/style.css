@@ -24,6 +24,6 @@ body{
     grid-template-columns: 37vw 5vw 37vw;
     grid-template-rows: 80vh 20vh;
     grid-template-areas: 
-    "socialmedia divider form"
+    "socialmedia divider email"
     "footer footer footer";
 }

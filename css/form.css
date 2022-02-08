@@ -1,39 +1,62 @@
 
-form{
+.email{
+    grid-area: email;
     display:grid;
     width:100%;
     height:100%;
-    grid-template-rows: 10vh 10vh 10vh 10vh;
+    grid-template-rows: repeat(4,20vh);
     grid-template-areas: 
     "legend"
     "username"
     " password"
     "login-details";
-    text-align: center;
-    font-size: large;
-}
-form >div>input{
-    width:50%;
-    height:40%;
-}
-.login-details .login{
-    width:30%;
-    background-color: lightskyblue;
-}
-.login-details .check{
-    width:15px;
-    height:15px;
-}
+    }
+/* username styling */
 legend{
     grid-area: legend;
+    width:100%;
+    height:100%;
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
  }
 .username{
     grid-area: username;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+ form >div>input{
+    width:50%;
+    height:40%;
 }
+/* password styling */
 .password{
     grid-area: password;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
    }
+   /* login button styling */
 .login-details{
     grid-area: login-details;
-   
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.login-details .login{
+    width:20%;
+    background-color: lightskyblue;
+}
+.login-details .check{
+    width:2%;
+   height:15%;
 }
