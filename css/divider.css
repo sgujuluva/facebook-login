@@ -3,14 +3,17 @@
     display:flex;
     justify-content: center;
     align-items: center;
-  
+  position:relative;
 }
 .divider div:first-child{
          width: 1px; 
         background-color: black; 
         height: 100%; 
-        float: left; 
-        
+       /*  float: left;  */
+       position:absolute;
+       right:50%;
+     
+            
 }
 .divider div:last-child{
    border:2px solid grey;
@@ -20,5 +23,7 @@
    display:flex;
    justify-content: center;
    align-items: center;
+   z-index:1;
+   background-color: white;
   }
 
