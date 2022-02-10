@@ -17,36 +17,39 @@
 
 .facebook {
     grid-area: facebook;
-    width:50%;
+    width:70%;
+    height:10%;
 }
 .google {
     grid-area: google;
-    width:50%;
+    width:70%;
+    height:10%;
 }
 .twitter {
     grid-area: twitter;
-    width:50%;
+    width:70%;
+    height:10%;
 }
 .socialmedia i{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .facebook button{
     width:65%;
-    height:150%;
+    height:100%;
     background-color: rgba(16, 18, 143, 0.836);
     color:white;
     border:none;
 }
 .google button{
     width:65%;
-    height:150%;
+    height:100%;
     background-color: rgba(226, 40, 80, 0.479);
     color:white;
     border:none;
 }
 .twitter button{
     width:65%;
-    height:150%;
+    height:100%;
     background-color: rgba(134, 190, 235, 0.37);
     color:white;
     border:none;
