@@ -25,4 +25,5 @@ body{
     grid-template-areas: 
     "socialmedia divider email"
     "footer footer footer";
+  
 }

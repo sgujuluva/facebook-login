@@ -1,5 +1,26 @@
 @media only screen and (max-width:450px){
+    /* social media */
+    .facebook button,.google button,.twitter button {
+        width:100%;
+        }
+
     .divider div:last-child{
         width:70%;
+    }
+    .socialmedia i{
+        font-size: 0.7rem;
+    }
+    /* form */
+    legend{
+        font-size: 1.2rem;
+    }
+       .login-details .login{
+        margin-left:0%;
+        width:15%;
+        background-color: lightskyblue;
+    }
+    .login-details .check{
+        width:9%;
+       height:15%;
     }
 }
